@@ -1,5 +1,5 @@
 name: Build APK
-on:
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,7 +10,7 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
       - run: chmod +x gradlew
-      - run:./gradlew assembleDebug
+      - run: ./gradlew assembleDebug
       - uses: actions/upload-artifact@v4
         with:
           name: LumiLive-APK
