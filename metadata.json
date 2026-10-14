@@ -1,0 +1,6 @@
+{
+  "name": "LumiLive",
+  "description": "Live video streaming & party chat platform with live gifting, animated luxury gifts, coin purchasing, multi-seat guest rooms, and PK battles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
